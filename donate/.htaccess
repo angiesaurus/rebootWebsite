@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^give\.rebootsafety\.tech$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.give\.rebootsafety\.tech$
+RewriteRule ^/?$ "https\:\/\/www\.classy\.org\/campaign\/launch\-reboot\-safety\/c95656" [R=301,L]
+
